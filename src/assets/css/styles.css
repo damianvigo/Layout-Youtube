@@ -190,7 +190,29 @@ a {
   border: 1px solid #dfdfdf;
 }
 
+/* ---- ---- ---- Contenido Principal ---- ---- ---- */
+
 .main {
-  background: #414141;
+  background: #f9f9f9;
   grid-area: contenido;
+  padding: 2.5em;
+}
+
+.main .titulo {
+  margin-bottom: 1.25em;
+}
+
+.main .grid-videos {
+  display: grid;
+  grid-gap: 2.5em 1.25em;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.main .grid-videos .video {
+  width: 100%;
+  display: block;
+}
+
+.main .grid-videos .video img {
+  width: 100%;
 }
